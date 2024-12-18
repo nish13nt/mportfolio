@@ -66,10 +66,13 @@
 
 @media screen and (max-width: 600px) {
     .services__container {
-        width: 60%;
+        width: 100%; /* Full width for small devices */
+        padding: 0 1rem; /* Add padding for spacing */
+        flex-direction: column; /* Stack elements vertically */
     }
 
     .service {
-        width: 60%;
+        width: 100%; /* Full width */
+        margin-bottom: 1.5rem; /* Add spacing between services */
     }
 }
